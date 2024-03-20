@@ -42,6 +42,7 @@ function Profile({ setPage, setOpenAIKey, setResume, resume, openAIKey }) {
       });
     }
   };
+
   return (
     <div className="flex flex-col  mx-5">
       <div className="flex flex-row justify-between my-3 items-center">
@@ -101,4 +102,5 @@ function Profile({ setPage, setOpenAIKey, setResume, resume, openAIKey }) {
     </div>
   );
 }
+
 export default Profile;

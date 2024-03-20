@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Nama Proyek
 
-## Available Scripts
+## Deskripsi
 
-In the project directory, you can run:
+Proyek ini bertujuan untuk menyediakan [deskripsi singkat proyek].
 
-### `npm start`
+## Daftar Isi
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Instalasi](#instalasi)
+- [Penggunaan](#penggunaan)
+- [Ketergantungan](#ketergantungan)
+- [Konfigurasi](#konfigurasi)
+- [Berkontribusi](#berkontribusi)
+- [Lisensi](#lisensi)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Instalasi
 
-### `npm test`
+Untuk memulai dengan proyek ini, ikuti langkah-langkah berikut:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone repositori ke mesin lokal Anda:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/username-anda/nama-proyek.git
+   ```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Instal ketergantungan yang diperlukan:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Penggunaan
 
-### `npm run eject`
+Untuk menjalankan proyek secara lokal, gunakan perintah berikut:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ini akan memulai server pengembangan dan membuka proyek di peramban web default Anda.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Ketergantungan
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Proyek bergantung pada ketergantungan berikut:
 
-## Learn More
+- **@testing-library/jest-dom**: ^5.17.0
+- **@testing-library/react**: ^13.4.0
+- **@testing-library/user-event**: ^13.5.0
+- **autoprefixer**: ^10.4.18
+- **axios**: ^1.6.8
+- **flowbite**: ^2.3.0
+- **flowbite-react**: ^0.7.3
+- **postcss**: ^8.4.37
+- **react**: ^18.2.0
+- **react-dom**: ^18.2.0
+- **react-icons**: ^5.0.1
+- **react-scripts**: 5.0.1
+- **react-toastify**: ^10.0.5
+- **tailwindcss**: ^3.4.1
+- **web-vitals**: ^2.1.4
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Konfigurasi
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Proyek menggunakan Tailwind CSS untuk styling. Di bawah ini adalah konfigurasi untuk Tailwind CSS:
 
-### Code Splitting
+```javascript
+module.exports = {
+  content: [
+    "./public/**/*.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/flowbite/**/*.{js,jsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("flowbite/plugin")],
+}
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Berkontribusi
 
-### Analyzing the Bundle Size
+Jika Anda ingin berkontribusi pada proyek ini, silakan kirim pull request. Mohon ikuti gaya dan konvensi kode yang ada.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Lisensi
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Proyek ini dilisensikan di bawah [nama lisensi]. Lihat file [LICENSE](LICENSE) untuk detailnya.

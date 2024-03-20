@@ -25,18 +25,13 @@ function Generator({ setPage, resume, openAIKey }) {
 
   const generateCoverLetter = async () => {
     setIsLoading(true);
-
     try {
-      // Create message to send to chatGPT API
       const message = `Generate a cover letter based on the following resume and job description:\n\nRESUME:\n${resume}\n\nJob Description:\n${jobDescription}`;
-      // Send message to chatGPT API and wait for response
       const chatGPTResponse = await postChatGPTMessage(message, openAIKey);
-      // Update state with generated cover letter
       setCoverLetter(chatGPTResponse);
     } catch (error) {
       console.error(error);
     } finally {
-      // Set loading state to false once the process is complete (whether it was successful or not)
       setIsLoading(false);
     }
   };

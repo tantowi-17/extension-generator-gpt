@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn Cover Letter Generator",
+  "name": "Generator Cover Letter",
   "version": "1.0.0",
-  "description": "A Chrome extension to generate cover letters using ChatGPT API.",
+  "description": "A Chrome extension to generate cover letters openAi.",
   "permissions": ["activeTab", "storage", "scripting"],
   "icons": {
     "16": "icon.png",
