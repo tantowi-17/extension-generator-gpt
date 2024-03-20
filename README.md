@@ -1,4 +1,4 @@
-# Nama Proyek
+# Extension Browser with GPT - Generate Cover Letter
 
 ## Deskripsi
 
@@ -10,31 +10,35 @@ Proyek ini bertujuan untuk menyediakan [deskripsi singkat proyek].
 - [Penggunaan](#penggunaan)
 - [Ketergantungan](#ketergantungan)
 - [Konfigurasi](#konfigurasi)
-- [Berkontribusi](#berkontribusi)
 - [Lisensi](#lisensi)
 
 ## Instalasi
 
 Untuk memulai dengan proyek ini, ikuti langkah-langkah berikut:
 
-1. Clone repositori ke mesin lokal Anda:
+Clone repositori ke mesin lokal Anda:
 
-   ```bash
-   git clone https://github.com/username-anda/nama-proyek.git
-   ```
+```bash
+git clone https://github.com/tantowi-17/extension-generator-gpt.git
+```
 
-2. Instal ketergantungan yang diperlukan:
+Instal ketergantungan yang diperlukan:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 ## Penggunaan
 
 Untuk menjalankan proyek secara lokal, gunakan perintah berikut:
 
 ```bash
-npm start
+npm run start
+```
+Untuk prodaction proyek secara lokal, gunakan perintah berikut:
+
+```bash
+npm run build
 ```
 
 Ini akan memulai server pengembangan dan membuka proyek di peramban web default Anda.
@@ -76,10 +80,6 @@ module.exports = {
   plugins: [require("flowbite/plugin")],
 }
 ```
-
-## Berkontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan kirim pull request. Mohon ikuti gaya dan konvensi kode yang ada.
 
 ## Lisensi
 
