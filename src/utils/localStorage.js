@@ -1,3 +1,5 @@
+/*global chrome*/
+
 export const saveData = (key, data) => {
   if (isChromeExtension()) {
     try {

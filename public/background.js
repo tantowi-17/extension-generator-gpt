@@ -1,3 +1,5 @@
+/*global chrome*/
+
 const linkedInListViewURL = "https://www.linkedin.com/jobs/collections";
 const linkedInDetailView = "https://www.linkedin.com/jobs/view";
 
